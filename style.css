@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    background-color: #432F70;
+  }
+
+header ul li{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin: 31px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    transition: 0.3s ease all
+}
+
+header ul li .active a{
+    color: #E95670;
+    transition: 0.3s ease all
+}
+
+header ul li a:hover{
+    text-decoration: none;
+    color: #b34270;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+}
+
+.myp{
+    width: 823px;
+    height: 485px;
+    background-color: #B34270;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myp h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 64px;
+    color: #BCBCBC;
+    margin-top: 190px;
+    margin-left: 90px;
+}
+
+.myp p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: #BCBCBC;
+    margin-top: -50px;
+    margin-left: 150px;
+}
+
+.myp button a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 185px;
+    height: 49px;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: #BCBCBC;
+}
+
+.myp button{
+    background-color: #B34270;
+    text-decoration: none;
+    width: 185px;
+    height: 49px;
+    border-radius: 60px;
+    margin-top: -50px;
+    margin-left: 319px;
+    color: #fff;
+    border-color: white;
+    border:2px solid ;
+    transition: .5s ease all
+}
+
+.myp button:hover{
+    text-decoration: none;
+    width: 185px;
+    height: 49px;
+    border-radius: 0px;
+    margin-top: -50px;
+    margin-left: 319px;
+    color: #B34270;
+    border-color: white;
+    border:2px solid ;
+}
